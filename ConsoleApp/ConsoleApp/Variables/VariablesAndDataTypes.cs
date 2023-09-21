@@ -8,17 +8,20 @@ namespace ConsoleApp.Variables
 {
     public class VariablesAndDataTypes
     {
-        public int a;
-        string name;
+        public int rollno;
+        public float gpa;
+        public bool passed;
         
         public void StudentInformation()
         {
-            a = 12;
-            name = "sameer";
-            float gpa = 3.5f;
-            bool passed = true;
+            rollno = 12;
+            string name = "sameer";
+            gpa = 3.5f;
+            passed = true;
             long LCno = 00200001656;
+            Console.WriteLine("student name: " + name +  "lc no: " + LCno);
         }
+        
        
     }
     public class Student
@@ -26,7 +29,7 @@ namespace ConsoleApp.Variables
         VariablesAndDataTypes mydata = new VariablesAndDataTypes();
         public void accessedInformation()
         {
-            Console.WriteLine(mydata.StudentInformation);
+            Console.WriteLine("rollno: " + mydata.rollno + "gpa: " + mydata.gpa + "pass/fail: " + mydata.passed);
         }
         
     }
