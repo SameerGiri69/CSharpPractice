@@ -1,5 +1,6 @@
 ﻿using ConsoleApp.Conditions_and_Loops;
 using ConsoleApp.Methods;
+using ConsoleApp.Tuple;
 
 namespace ConsoleApp
 {
@@ -7,6 +8,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            #region CommentedCode
             // Conditionss obj = new Conditionss();
             // obj.Conditions();
             //SwitchStatement obj2 = new SwitchStatement();
@@ -25,8 +27,12 @@ namespace ConsoleApp
             //temp.displayArrayAddition();
             //ParametersOfDifferentDataTypes obj = new ParametersOfDifferentDataTypes();
             //obj.viewDataTypes();
-            MethodOverloading obj = new MethodOverloading();
-            obj.viewInformaiton();            
+            //MethodOverloading obj = new MethodOverloading();
+            //obj.viewInformaiton();
+            //
+            #endregion
+            TupleExample obj = new TupleExample();
+            obj.displayInfo();
         }
     }
 }
