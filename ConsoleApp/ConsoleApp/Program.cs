@@ -20,10 +20,13 @@ namespace ConsoleApp
             //method.Result();
             //Method studentinfo = new Method();
             //studentinfo.ShowStudentInformation();
-            Method temp = new Method();
+            //Method temp = new Method();
             //temp.displayTemperature();
-            temp.displayArrayAddition();
-            
+            //temp.displayArrayAddition();
+            //ParametersOfDifferentDataTypes obj = new ParametersOfDifferentDataTypes();
+            //obj.viewDataTypes();
+            MethodOverloading obj = new MethodOverloading();
+            obj.viewInformaiton();            
         }
     }
 }

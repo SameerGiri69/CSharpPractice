@@ -41,22 +41,7 @@ namespace ConsoleApp.Methods
             int result = Temperature(100);
             Console.WriteLine("the temp in c is: "+result);
         }
-        public int ArrayAddition(int[] expenses)
-        {
-            int sum = 0;
-            foreach ( var item in expenses )
-            {
-                sum += item;
-                
-            }
-            return sum;  
-        }
-        public void displayArrayAddition()
-        {
-            int[] expenses = { 1000, 2000, 6585, 8945 };
-            int result = ArrayAddition(expenses);
-            Console.WriteLine(result);
-        } 
+        
         
     }
 }
