@@ -1,4 +1,5 @@
 ﻿using ConsoleApp.Conditions_and_Loops;
+using ConsoleApp.Constructors;
 using ConsoleApp.Methods;
 using ConsoleApp.This_keyword;
 using ConsoleApp.Tuple;
@@ -34,8 +35,10 @@ namespace ConsoleApp
             #endregion
             //TupleExample obj = new TupleExample();
             //obj.displayInfo();
-            This obj2 = new This();
-            obj2.PI();
+            //This obj2 = new This();
+            //obj2.PI();
+            CreatingConstructors obj = new CreatingConstructors();
+            obj.Details();
         }
     }
 }
