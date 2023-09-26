@@ -1,5 +1,6 @@
 ﻿using ConsoleApp.Conditions_and_Loops;
 using ConsoleApp.Methods;
+using ConsoleApp.This_keyword;
 using ConsoleApp.Tuple;
 
 namespace ConsoleApp
@@ -31,8 +32,10 @@ namespace ConsoleApp
             //obj.viewInformaiton();
             //
             #endregion
-            TupleExample obj = new TupleExample();
-            obj.displayInfo();
+            //TupleExample obj = new TupleExample();
+            //obj.displayInfo();
+            This obj2 = new This();
+            obj2.PI();
         }
     }
 }
