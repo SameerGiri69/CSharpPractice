@@ -1,5 +1,6 @@
 ﻿using ConsoleApp.Conditions_and_Loops;
 using ConsoleApp.Constructors;
+using ConsoleApp.Interfaces;
 using ConsoleApp.Methods;
 using ConsoleApp.This_keyword;
 using ConsoleApp.Tuple;
@@ -37,8 +38,10 @@ namespace ConsoleApp
             //obj.displayInfo();
             //This obj2 = new This();
             //obj2.PI();
-            CreatingConstructors obj = new CreatingConstructors();
-            obj.Details();
+            // CreatingConstructors obj = new CreatingConstructors();
+            // obj.Details();
+            Car obj = new Car();
+            obj.sound();
         }
     }
 }
