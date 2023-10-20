@@ -1,4 +1,5 @@
-﻿using ConsoleApp.Conditions_and_Loops;
+﻿using ConsoleApp.Abstraction;
+using ConsoleApp.Conditions_and_Loops;
 using ConsoleApp.Constructors;
 using ConsoleApp.Interfaces;
 using ConsoleApp.Methods;
@@ -32,16 +33,21 @@ namespace ConsoleApp
             //obj.viewDataTypes();
             //MethodOverloading obj = new MethodOverloading();
             //obj.viewInformaiton();
-            //
-            #endregion
+            
             //TupleExample obj = new TupleExample();
             //obj.displayInfo();
             //This obj2 = new This();
             //obj2.PI();
             // CreatingConstructors obj = new CreatingConstructors();
             // obj.Details();
-            Car obj = new Car();
-            obj.sound();
+            // Car obj = new Car();
+            // obj.sound();
+            #endregion
+
+            Sameer obj = new Sameer();
+            obj.StudentData();
+            Milan obj2 = new Milan();
+            obj2.StudentData();
         }
     }
 }
